@@ -24,13 +24,16 @@ class App extends Component {
       .catch(err => console.log(err))
   }
 
+  updateVillage = (newSmurfs) => {
+    this.setState({smurfs: newSmurfs})
+  }
 
 
 
   render() {
     return (
       <div className="App">
-        <SmurfForm />
+        <SmurfForm addSmurf={this.addSmurf} />
         <Smurfs smurfs={this.state.smurfs} />
       </div>
     );
