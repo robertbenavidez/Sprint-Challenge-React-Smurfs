@@ -29,13 +29,30 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the differences between `client-side routing` and `server-side routing`.
+
+  The main difference between client-side routing and server=side routing that the state of the application is maintain client side in client-side routing. in traditonal server-side routing everything is maintained in the server and the client is just for display.
+
+
 - [ ] What does HTTP stand for?
+
+    HTTP stand for Hypertext Transfer Protocol.
+
 - [ ] What does CRUD stand for?
+
+    CRUD stands for Create, Retrieve, Update, and Delete.
+
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+  1-PUT/POST 
+  2-GET
+  3-DELETE
+
 - [ ] Mention three tools we can use to make AJAX requests.
 
+    axios using .get .post and .put.
 
-## Project Set Up
+## Project Set Upls
 
 Follow these steps to set up and work on your project:
 
@@ -66,7 +83,7 @@ The MVP of this project will be broken up between 2 stages. Follow each step and
 
 Construct your Components to build a Single Page Application. Keep your components separate and design them as if they are pages before adding in your Router.
 
-- [ ] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
+- [X] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
 - [ ] Display those smurfs in a list on the screen.
 - [ ] Construct an AXIOS request to `POST` to add a Smurf to the Smurf DB you'll need all three fields.
 - [ ] Create a form that will allow users to add Smurfs to the Smurf DB.
